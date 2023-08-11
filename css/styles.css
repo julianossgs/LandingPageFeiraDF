@@ -86,14 +86,43 @@
     font-weight: 600;
 }
 
+
+/* Cards */
+#card{
+    background-color: #ccc;
+    text-align: center;
+}
+
+.card{
+    margin: 5px 4px 20px 4px;
+}
+
+.card-body, h5{
+    color: #198754;
+    font-weight: 700;
+}
+
+.card-body, h6{
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.card-text{
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+
 /*Medias*/
 @media (min-width: 576px) {
-   
+    #card{
+        display: flex;
+    }
 }
 
 
 @media (min-width: 768px) {
-
+    
 }
 
 
