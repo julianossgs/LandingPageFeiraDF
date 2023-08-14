@@ -133,6 +133,59 @@
     font-weight: 700;
 }
 
+/*Seção contato*/
+#contato{
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .3);
+    margin: 10px auto;
+    padding: 15px;
+    
+}
+
+#contato h2{
+    text-align: center;
+    color: #198754;
+}
+
+.form-content{
+    border: 1px solid blue;
+   
+    padding: 10px;
+}
+
+#form-container button{
+    width: 100%;
+}
+
+.form-map{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.adress-map{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+    align-items: center;
+}
+
+.adress-map a{
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.adress-map i{
+    font-size: .8rem;
+}
+
+
 /*Medias*/
 @media (min-width: 576px) {
     #card{
