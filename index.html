@@ -483,11 +483,64 @@
                       <button type="submit" class="btn btn-outline-dark">Enviar</button>
                     </div>
                     <div class="link-container col-12">
-                      <a href="#">Ainda não tenho cadastro</a>
+                      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modalLink">Ainda não tenho cadastro</a>
 
                     </div>
 
                   </form>
+                  <!--Modal do link-->
+                  <div class="modal fade" id="modalLink" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title" id="modalLabel">Faça seu cadastro</h4>
+                          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        </div>
+                        <div class="modal-body">
+                          <form class="row">
+                            <div class="col-6 mb-3">
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-6 mb-3">
+                              <label for="inputPassword4" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-6 mb-3">
+                              <label for="name" class="form-label">Nome</label>
+                              <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="col-6 mb-3">
+                              <label for="address" class="form-label">Endereço</label>
+                              <input type="text" class="form-control" id="address">
+                            </div>
+                            <div class="col-4 mb-3">
+                              <label for="county" class="form-label">Bairro</label>
+                              <input type="text" class="form-control" id="county">
+                            </div>
+                            <div class="col-4 mb-3">
+                              <label for="city" class="form-label">Cidade</label>
+                              <input type="text" class="form-control" id="city">
+                            </div>
+                            <div class="col-4 mb-3">
+                              <label for="zip" class="form-label">Cep</label>
+                              <input type="text" class="form-control" id="zip">
+                            </div>
+
+
+                          </form>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-outline-dark">Cadastrar-se</button>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
                 </div>
                
                 <div class="col-md-6 order-md-1">
