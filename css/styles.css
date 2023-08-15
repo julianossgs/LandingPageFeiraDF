@@ -210,6 +210,10 @@
     font-size: .8rem;
 }
 
+.modal-title, h4{
+    text-align: center;
+}
+
 /*Footer*/
 footer{
     height: 155px;
